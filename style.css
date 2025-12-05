@@ -150,7 +150,7 @@ body {
 .cards-grid {
     display: grid;
     /* Increased min-width for larger cards */
-    grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 40px;
 }
 
