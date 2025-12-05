@@ -53,6 +53,15 @@ body {
     margin-bottom: 50px;
 }
 
+.logo-image {
+    width: 50px;
+    height: 50px;
+    /* Adjust size to fit */
+    object-fit: contain;
+    filter: drop-shadow(2px 2px 0 var(--border-color));
+    /* Sticker shadow for logo */
+}
+
 .logo h1 {
     font-size: 2rem;
     font-family: 'VT323', monospace;
@@ -303,6 +312,7 @@ body {
 .ann-item p {
     font-size: 0.9rem;
     color: var(--text-dark);
+    text-align: justify;
 }
 
 hr {
