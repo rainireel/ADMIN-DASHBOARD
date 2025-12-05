@@ -360,8 +360,7 @@ hr {
         padding: 15px;
         grid-template-rows: auto auto;
         gap: 15px;
-        position: sticky;
-        top: 0;
+        position: static;
     }
 
     .header-top {
